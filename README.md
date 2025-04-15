@@ -4,11 +4,6 @@ This project aims to detect anomalies in financial transaction data using machin
 
 ---
 
-## 🚀 Project Objective
-
-To build a robust anomaly detection system for transaction data using various unsupervised and supervised machine learning algorithms. The model flags transactions that deviate significantly from normal patterns.
-
----
 
 ## 🧠 Algorithms Used
 
@@ -16,11 +11,7 @@ To build a robust anomaly detection system for transaction data using various un
 - **Why Used**: Isolation Forest is effective for high-dimensional datasets and is specifically designed for anomaly detection. It isolates anomalies instead of profiling normal data points, which makes it efficient and scalable.
 - **Strength**: Works well with skewed data distributions and handles outliers naturally.
 
-### 2. **One-Class SVM**
-- **Why Used**: This algorithm is good for modeling the boundary around normal data points, treating everything outside this boundary as an anomaly.
-- **Strength**: Effective for non-linear data through kernel functions.
-
-### 3. **Local Outlier Factor (LOF)**
+### 2. **Local Outlier Factor (LOF)**
 - **Why Used**: LOF detects anomalies by measuring the local deviation of density relative to neighbors, making it useful in identifying local outliers.
 - **Strength**: It considers the density of the local neighborhood, which helps in identifying subtle anomalies.
 
