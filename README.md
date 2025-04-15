@@ -68,16 +68,3 @@ This project aims to detect anomalies in financial transaction data using machin
 
 ---
 
-## 📌 Future Improvements
-
-- Integration with real-time transaction data
-- Use of deep learning techniques (e.g., Autoencoders, LSTM)
-- Better feature engineering from domain knowledge
-
----
-
-## 🧾 License
-
-MIT License
-
-Let me know if you want this saved as a file, 
